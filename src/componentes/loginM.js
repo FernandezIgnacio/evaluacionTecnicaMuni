@@ -7,7 +7,29 @@ const login = () => {
     const [genero, Setgenero] = useState ('')
     const [edad, Setedad] = useState ('')
 }
+/*const handleNombreChange = (e) => {
+    setNombre(e.target.value);
+  };
 
+  const handleApellidoChange = (e) => {
+    setApellido(e.target.value);
+  };
+
+  const handleDniChange = (e) => {
+    setDni(e.target.value);
+  };
+
+  const handleGeneroChange = (e) => {
+    setGenero(e.target.value);
+  };
+
+  const handleEdadChange = (e) => {
+    setEdad(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+*/
 return (
     <div>
         <input
