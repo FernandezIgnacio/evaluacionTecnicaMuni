@@ -7,14 +7,14 @@ const WorkshopBox = ({ workshop }) => {
   const handleEnroll = () => {
     if (acceptedTerms) {
       const confirmAccept = window.confirm(
-        "¿Seguro que deseas aceptar los términos?"
+        "tienes que aceptar los términos"
       );
       if (confirmAccept) {
         setIsEnrolled(true);
-        
+        const confirmAccept = window.confirm( "te has registrado con exito")
       }
     } else {
-      alert("Debes aceptar los términos para inscribirte.");
+      alert("Debes aceptar los términos para inscribirte, asi podremos registrar tu usuario y tu participacion del taller");
     }
   };
 
